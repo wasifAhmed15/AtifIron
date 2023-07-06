@@ -1,0 +1,110 @@
+body.lighmood{
+    background-color: white;
+    color: black;
+}
+body.darkmood{
+    background-color: black;
+    color: white;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+    /* box-sizing: border-box;
+    background-size: cover;
+    overflow-y: hidden; */
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    text-decoration: none;
+    
+    /* background-size: cover; */
+}
+p{
+    font-size: 1.1em;
+    /* line-height: 1.7em; */
+
+}
+.section3{
+    background-color: #f0f0f0;
+    background-size: cover;
+}
+.pink{
+ background-color:#ff8d52                                      ;
+
+}
+.icon{
+    font-size: 2.6em;
+    color: white;
+}
+.heading_section5{
+    font-size: 2.4em;
+    text-align: center;
+}
+.heading_section5:hover{
+color:#ff8d52   ;
+border-top: 2px solid black;
+display: inline-block;
+}
+.section7{
+    background-image: url(./Image/vertical-stripes-iron-material-background.jpg);
+    /* width: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.white{
+    color: white;
+    font-size: 1.1em;
+}
+.white:hover{
+    color: black;
+    
+}
+input{
+    width: 300px;
+}
+.cardbuy:hover{
+    
+        transform: translatey(-15px);
+       
+        transition: transform.3s;
+  
+}
+
+.heading:hover  {
+        -webkit-animation: heading 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 3 both;
+                animation: heading 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 3 both;
+    }
+
+ @-webkit-keyframes heading  {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes heading  {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+.list{
+    list-style: none;
+}

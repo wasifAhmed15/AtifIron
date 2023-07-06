@@ -1,0 +1,29 @@
+
+.form-outline.sucesstext input{
+    border-color: #2ecc71;
+}
+
+.form-outline.errortext input{
+    border-color: #e74c3c;
+}
+.form-outline i {
+    visibility: hidden;
+}
+
+ small {
+   color:  #e74c3c;;
+
+}
+
+.form-outline.sucesstext i.fa-circle-check {
+    color:  #2ecc71;;
+    visibility: visible;
+}
+
+.form-outline.errortext i.fa-circle-exclamation{
+    color: #e74c3c;
+    visibility: hidden;
+}
+#errorMassage{
+    color: #e74c3c;
+}
